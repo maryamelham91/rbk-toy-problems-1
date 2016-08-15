@@ -39,7 +39,6 @@ dirReduc(["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH"]) => [] //don't nee
 			if(directions[i]===expect){
 				console.log(expect)
 				directions.splice(i,2)
-				i=i-2;
 				length=length-2;
 			}
 			var x=directions[i]
